@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  overflow: hidden;
+  margin-block: 80px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+form input,
+form select,
+form button {
+  margin: 5px 0;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#filters {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#filters input,
+#filters select {
+  padding: 10px;
+  font-size: 16px;
+}
+
+#book-list {
+  list-style: none;
+  padding: 0;
+}
+
+#book-list li {
+  background: #fff;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#book-list li button {
+  margin-left: 10px;
+}
+
+#book-count {
+  text-align: center;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
